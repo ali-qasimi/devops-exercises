@@ -3594,6 +3594,12 @@ The loopback interface is a special, virtual network interface that your compute
   * traceroute</summary><br><b>
 </b></details>
 
+  * ip addr - assign an IP address onto an interface
+  * ip route - configure a static route
+  * ip link - show details about all the interfaces, including link name, MAC address, MTU, IP address
+  * ping - run an ICMP ping to an IP address
+  * netstat - used to show the network route table, TCP sessions, and some network statistics
+  * traceroute - run a traceroute to an IP address, it shows the layer 3 hops taken to reach the destination.
 <details>
 <summary>What is a network namespace? What is it used for?</summary><br><b>
 </b></details>
